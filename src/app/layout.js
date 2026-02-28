@@ -15,6 +15,11 @@ const poppins = Poppins({
   weight:['300','400','500','600','700','800'],
   subsets: ["latin"],
 });
+const space_Grotesk = Space_Grotesk({
+  variable: "--font-space_grotesk",
+  weight:['300','400','500','600','700','800'],
+  subsets: ["latin"],
+});
 
 export const metadata = {
   title: "Abiskar",
