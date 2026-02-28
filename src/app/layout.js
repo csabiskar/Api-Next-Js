@@ -17,7 +17,7 @@ const poppins = Poppins({
 });
 const space_Grotesk = Space_Grotesk({
   variable: "--font-space_grotesk",
-  weight:['300','400','500','600','700','800'],
+  weight:['300','400','500','600','700',],
   subsets: ["latin"],
 });
 
