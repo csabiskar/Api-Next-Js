@@ -1,5 +1,5 @@
 import "./globals.css";
-import { poppins,spaceGrotesk } from "./font";
+import { poppins,spaceGrotesk ,bricolageGrotesque} from "./font";
 
 export const metadata = {
   title: "New Matha Sweets",
@@ -9,11 +9,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" 
-    className={`${spaceGrotesk.variable} ${poppins.variable}`}
+    className={`${spaceGrotesk.variable} ${poppins.variable} ${bricolageGrotesque.variable}`}
     
     >
       <body
-        className={`${spaceGrotesk.className}`}
+        className={`${bricolageGrotesque.className}`}
       >
         {children}
       </body>
