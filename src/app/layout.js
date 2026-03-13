@@ -1,5 +1,6 @@
 import "./globals.css";
 import { poppins,spaceGrotesk ,bricolageGrotesque} from "./font";
+import Navbar from "@/components/Navbar";
 
 export const metadata = {
   title: "New Matha Sweets",
@@ -12,6 +13,7 @@ export default function RootLayout({ children }) {
     className={`${spaceGrotesk.variable} ${poppins.variable} ${bricolageGrotesque.variable}`}
     
     >
+      <Navbar/>
       <body
         className={`${bricolageGrotesque.className}`}
       >

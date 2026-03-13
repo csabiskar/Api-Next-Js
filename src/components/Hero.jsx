@@ -4,7 +4,7 @@ export default function Hero() {
       
       {/* Background Gradient Blob */}
       <div className="absolute inset-0 -z-10">
-        <div className="absolute left-1/2 top-[-20%] h-[500px] w-[800px] -translate-x-1/2 rounded-full bg-indigo-600 opacity-30 blur-3xl"></div>
+        <div className="absolute left-1/2 top-[-20%] h-125 w-200 -translate-x-1/2 rounded-full bg-indigo-600 opacity-30 blur-3xl"></div>
       </div>
 
       <div className="mx-auto max-w-7xl px-6 py-32 text-center">
